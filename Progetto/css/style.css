@@ -1,0 +1,35 @@
+h1{
+    color: white;
+}
+#container{
+    width: 50%;
+    text-align: center;
+    background-color: blue;
+    margin: 0 auto;
+}
+ #button{
+    font-size: medium;
+ }
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.flexItem{
+    border: 1px solid grey;
+    border-radius: 2px;
+    background-color: white;
+    font-size: 6em;
+    visibility:visible;
+    opacity: 1;
+}
+.flexItem:hover{
+    cursor: pointer;
+    animation-duration: 2s;
+    transform: rotate(3deg);
+}
+.display{
+    opacity: 0;
+}
+
