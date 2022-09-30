@@ -13,20 +13,22 @@ h1{
 #flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: center;
+    border-bottom: 5px;
 }
-
 .flexItem{
+    display: block;
     border: 1px solid grey;
+    width: 25%;
     border-radius: 2px;
     background-color: white;
-    font-size: 6em;
-    visibility:visible;
+    font-size: 3em;
+    margin:5px;
     opacity: 1;
+    border-bottom: 5px solid black;
 }
 .flexItem:hover{
     cursor: pointer;
-    animation-duration: 2s;
     transform: rotate(3deg);
 }
 .display{
