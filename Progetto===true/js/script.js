@@ -17,7 +17,5 @@ let cardTwo;
   if(cardOne.innerHTML === cardTwo.innerHTML){
     cardOne.classList.add('span')
     cardTwo.classList.add('span')
-  }else{
-    cardOne && cardTwoclassList.add('hide')
   }
- }700;
+ }
