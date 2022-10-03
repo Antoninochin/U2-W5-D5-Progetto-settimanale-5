@@ -2,7 +2,8 @@ const animals = ['🐔', '🕷', '🦂', '🐾', '🦊', '🦍', '🐵', '🐁',
 
 let mescola = animals.sort(() => Math.random() - 0.5)
 
-mescola = []
+
+ //document.getElementsById('flex').innerHTML = mescola
 
 for(let i = 0; i < mescola.length; i++){
     mescola[i].classList.add('span')
