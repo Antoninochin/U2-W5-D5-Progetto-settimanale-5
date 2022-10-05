@@ -7,14 +7,17 @@ let cardTwo;
 //  }
 
  function card(event){
-  cardOne.classList.add('span')
-  
+  event.target.classList.add('span')
   if( cardOne !== undefined){
     cardTwo = event.target
   }else{
     cardOne = event.target
   }
   if(cardOne.innerHTML === cardTwo.innerHTML){
+    return true
+
     
-  }
+  }else{
+    return false
  }
+}

@@ -8,11 +8,9 @@ span{
 .span{
     opacity: 1;
 }
-.span2{
+
+.uguale{
     background-color: red;
-}
-.hide{
-    opacity: 0;
 }
 #container{
     width: 50%;
