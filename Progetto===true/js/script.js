@@ -1,5 +1,7 @@
-let cardOne;
-let cardTwo;
+let cardOne = document.querySelectorAll('span');
+let cardTwo = document.querySelectorAll('span');
+console.log('cardOne')
+console.log('cardTwo')
 //  function card(event){
 //     let itemSelected = event.target
 //    itemSelected.classList.add('span')
@@ -16,7 +18,6 @@ let cardTwo;
   if(cardOne.innerHTML === cardTwo.innerHTML){
     return true
 
-    
   }else{
     return false
  }
